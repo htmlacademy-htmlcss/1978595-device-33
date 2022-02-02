@@ -5,51 +5,59 @@
     <title>HTML Academy: Девайс</title>
   </head>
   <body>
-
+<!-- Шапка страницы -->
     <header class="main-header">
 
       <nav class="main-navigation">
-      
-      <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-        
-        <input class="search-input" type="text" name="searchQuery">
-        
-        <button class="search-button" type="submit">Найти</button> 
-      
-      </form>
-      
-      <ul class="user-navigation">
-        <li class="nav-item"> 
-          <a class="login-button" href="#">Войти</a>
-        </li>
-        <li class="nav-item">
-          <a class="compare-button" href="#">Сравнить</a>
-        </li>
-        <li class="nav-item">
-          <a class="cart-button" href="#">Корзина</a>
-        </li>
-      </ul>
 
-      <ul class="catalog-togglers">
-        <li>
-          <a class="catalog-toggler-text" href="#">Каталог товаров</a>
-        </li>
-        <li>
-            <button class="catalog-toggler-button"></button>
-        </li>
+        <!-- Форма поиска -->
+        <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+
+          <input class="search-input" type="text" name="searchQuery">
+
+          <button class="search-button" type="submit">Найти</button> 
+        
+        </form>
+
+        <!-- Кнопка Войти -->
+        <ul class="user-navigation user-navigation-login">
+          <li class="nav-item"> 
+            <a class="nav-link login-button nav-link-top" href="#">Войти</a>
+          </li>
         </ul>
-        <ul class="site-navigation">        
-        <li class="nav-item">
-          <a class="nav-link" href="#">Доставка</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Гарантия</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Контакты</a>
-        </li>
-      </ul>
+        
+        <!-- Кнопки Сравнить и Корзина -->
+        <ul class="user-navigation user-navigation-right">
+          <li class="nav-item">
+            <a class="nav-link compare-button nav-link-top" href="#">Сравнить</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link cart-button nav-link-top" href="#">Корзина</a>
+          </li>
+        </ul>
 
+        <!-- Кнопки Каталог товаров -->
+        <ul class="catalog-togglers">
+          <li>
+            <a class="catalog-toggler-text nav-link-bottom" href="#">Каталог товаров</a>
+          </li>
+          <li>
+            <button class="catalog-toggler-button"></button>
+          </li>
+        </ul>
+        
+        <!-- Кнопки навигации по сайту -->
+        <ul class="site-navigation">        
+          <li class="nav-item">
+            <a class="nav-link nav-link-bottom" href="#">Доставка</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-bottom" href="#">Гарантия</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-bottom" href="#">Контакты</a>
+          </li>
+        </ul>
 
       </nav>
       
