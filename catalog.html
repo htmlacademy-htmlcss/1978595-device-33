@@ -80,9 +80,83 @@
     </header>
 
 
-    <main>
+    <!-- Главный раздел каталога -->
+    <main class="catalag-main">
 
-        
+        <!-- Заголовок каталога -->
+        <header class="inner-header">
+
+            <h1 class="inner-header-title">Моноподы для селфи</h1>
+            <ul class="breadcrumbs-list">
+                <li class="breadcrumbs-list-item"><a class="breadcrumbs-link" href="index.html">Главная</a></li>
+                <li class="breadcrumbs-list-item"><a class="breadcrumbs-link" href="#">Каталог</a></li>
+                <li class="breadcrumbs-list-item"><a class="breadcrumbs-link" ></a>Моноподы для селфи</li>
+            </ul>
+        </header>
+
+        <section class="filter-section">
+            <h2 class=filter-title>Фильтр</h2>
+            <form class="filter-form" action="https://echo.htmlacademy.ru/" method="POST">
+                <fieldset class="filter-fieldset">
+                    <legend class="filter-legend">Стоимость</legend>
+                    <!-- Ползунок будет создан позже -->
+                </fieldset>
+
+                <fieldset class="filter-fieldset" >
+                    <legend>Цвет</legend>
+                    <ul class="color-filter-list">
+                        <li class="color-filter-list-item">
+                            <label class="color-filter-checkbox-label">
+                                <input class="filter-checkbox color-filter-checkbox" type="checkbox" name="black" checked>Черный
+                            </label>
+                        </li>
+                        <li class="color-filter-list-item">
+                            <label class="color-filter-checkbox-label">
+                                <input class="filter-checkbox color-filter-checkbox" type="checkbox" name="white" checked>Белый
+                            </label>
+                        </li>
+                        <li class="color-filter-list-item">
+                            <label class="color-filter-checkbox-label">
+                                <input class="filter-checkbox color-filter-checkbox" type="checkbox" name="blue">Синий
+                            </label>
+                        </li>
+                        <li class="color-filter-list-item">
+                            <label class="color-filter-checkbox-label">
+                                <input class="filter-checkbox color-filter-checkbox" type="checkbox" name="red">Красный
+                            </label>
+                        </li>
+
+                        <li class="color-filter-list-item">
+                            <label class="color-filter-checkbox-label">
+                                <input class="filter-checkbox color-filter-checkbox" type="checkbox" name="pink">Розовый
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+
+                <fieldset class="filter-fieldset">
+                    <legend class="filter-legend">Bluetooth</legend>
+                        <ul class="bluetooth-fitler-list">
+                            <li class="bluetooth-radio-list-item">
+                                <label class="bluetooth-filter-radio-label">
+                                    <input class="filter-radio bluetooth-radio" type="radio" name="bluetooth" value="true" checked>Есть
+                                </label>
+                            </li >
+                            <li class="bluetooth-radio-list-item">
+                                <label class="bluetooth-filter-radio-label">
+                                    <input class="filter-radio bluetooth-radio" type="radio" name="bluetooth" value="false">Нет
+                                </label>
+                            </li>
+                        </ul>
+                </fieldset>
+                <button class="button filter-button" type="submit">Показать</button>
+
+            </form>
+
+
+        </section>
+
+
     </main>
 
     <footer class="page-footer">
