@@ -20,10 +20,15 @@
         
         </form>
 
-        <!-- Кнопка Войти -->
+        
+        
+        <!-- Кнопки Выйти и Имя Пользователя -->
         <ul class="user-navigation user-navigation-login">
           <li class="nav-item"> 
-            <a class="nav-link login-button nav-link-top" href="#">Войти</a>
+            <a class="nav-link user-button nav-link-top" href="#">Коля Петухов</a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link quit-button nav-link-top" href="#">Выйти</a>
           </li>
         </ul>
         
@@ -93,6 +98,7 @@
         </ul>
       </header>
 
+      <!-- Раздел с фильтрами -->
       <section class="filter-section">
         <h2 class=filter-title>Фильтр:</h2>
         <form class="filter-form" action="https://echo.htmlacademy.ru/" method="POST">
@@ -152,9 +158,9 @@
                 
         </form>
 
-
       </section>
 
+      <!-- Раздел Сортировка -->
       <section class="sorting-section">
         <h2 class="sorting-title ">Сортировка:</h2>
         <select class="select-input catalog-select-input" name="sorting-parameter" id="sortingfield_catalog" aria-label="Отсортировать">
@@ -165,41 +171,38 @@
 
       </section>
 
+      <!-- Раздел Товары -->
       <section class="goods-section">
         <h2 class="goods-section-title">Товары</h2>
         <ul class="goods-list">
           <li class="good-card">
             <a class="img-link" href="#">
-              <img class="new-img" src="" alt="new">
               <img class="good-image" src="" alt="Любительская селфи-палка">
-              <img class="details-button" src="" alt="Подробнее">
+              <p class="details-text" >Подробнее</p>
               <h3 class="good-name">Любительская селфи-палка</h3>
             </a>
             <b class="price">500 ₽</b>
           </li>
           <li class="good-card">
             <a class="img-link" href="#">
-              <img class="new-img" src="" alt="new">
               <img class="good-image" src="" alt="Профессиональная селфи-палка ">
-              <img class="details-button" src="" alt="Подробнее">
+              <p class="details-text" >Подробнее</p>
               <h3 class="good-name">Профессиональная селфи-палка</h3>
             </a>
             <b class="price">1500 ₽</b>
           </li>
           <li class="good-card">
             <a class="img-link" href="#">
-              <img class="new-img" src="" alt="new">
               <img class="good-image" src="" alt="Непотопляемая селфи-палка">
-              <img class="details-button" src="" alt="Подробнее">
+              <p class="details-text" >Подробнее</p>
               <h3 class="good-name">Непотопляемая селфи-палка</h3>
             </a>
             <b class="price">2 500 ₽</b>
           </li>
           <li class="good-card">
             <a class="img-link" href="#">
-              <img class="new-img" src="" alt="new">
               <img class="good-image" src="" alt="Селфи-палка «Следуй за мной»">
-              <img class="details-button" src="" alt="Подробнее">
+              <p class="details-text" >Подробнее</p>
               <h3 class="good-name">Селфи-палка «Следуй за мной»</h3>
             </a>
             <b class="price">1 500 ₽</b>
@@ -208,6 +211,7 @@
 
         <a class="load-more-link" href="#">Загрузить еще</a>
 
+        <!-- Раздел Пагинация -->
         <ul class="pagination-list">
           <li class="pagination-list-item">
             <a class="pagination-button pagination-button-fb" href="#">Назад</a>
