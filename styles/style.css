@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Rubik";
+    src: url(/fonts/rubik/rubik-400.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(/fonts/rubik/rubik-700.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rubik";
+    src: url(/fonts/rubik/rubik-800.woff2);
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url(/fonts/raleway/raleway-800.woff2);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.search-input, .search-button{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.user-navigation{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.site-navigation{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
