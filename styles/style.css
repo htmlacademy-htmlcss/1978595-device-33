@@ -49,11 +49,13 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    list-style: none;
     
 }
 
-.nav-link{
+.nav-link, .main-link{
     text-decoration: none;
+    color:#000000;
 }
 
 .site-navigation{
@@ -97,7 +99,7 @@ body{
     color:#444444;
 }
 
-.details-button, .button-link, .filter-button{
+.details-button, .button-link, .filter-button {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
@@ -106,6 +108,8 @@ body{
     text-align: center;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    text-decoration: none;
+    color:#000000;
 }
 
 .prop-top, .prop-bottom{
@@ -153,6 +157,11 @@ body{
     line-height: 18px;
     text-transform: none;
     letter-spacing: normal;
+    list-style: none;
+}
+
+.dropdown-menu-column{
+    list-style: none;
 }
 
 .catalog-list{
@@ -162,6 +171,11 @@ body{
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.02em;
+}
+
+.catalog-link{
+    text-decoration: none;
+    color:#000000;
 }
 
 .service-button{
@@ -236,6 +250,16 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    list-style-image:url(/image/icons/nav-arrow.svg) ;
+}
+
+.breadcrumbs-list a{
+    text-decoration: none;
+    color:#000000;
+}
+
+.color-filter-list, .bluetooth-fitler-list{
+    list-style: none;
 }
 
 .filter-title, .sorting-title{
@@ -281,6 +305,12 @@ body{
     font-size: 18px;
     line-height: 20px;
     letter-spacing: -0.02em;
+    
+}
+
+.good-name-link{
+    text-decoration: none;
+    color:#000000;
 }
 
 .price{
@@ -301,6 +331,8 @@ body{
     line-height: 19px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    text-decoration: none;
+    color:#000000;
 }   
 
 .pagination-button-fb{
@@ -311,6 +343,8 @@ body{
     line-height: 21px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    text-decoration: none;
+    color:#000000;
 }
 
 .pagination-button-number, .pagination-button-dots{
@@ -319,5 +353,18 @@ body{
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+    text-decoration: none;
     color: #444444;
+}
+
+.pagination-list{
+    list-style: none;
+}
+
+.goods-list{
+    list-style: none;
+}
+
+.social-navigation{
+    list-style: none;
 }
