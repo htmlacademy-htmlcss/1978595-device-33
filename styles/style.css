@@ -3,6 +3,7 @@
     src: url(/fonts/rubik/rubik-400.woff2);
     font-weight: 400;
     font-style: normal;
+    font-display: swap
 }
 
 @font-face {
@@ -10,6 +11,7 @@
     src: url(/fonts/rubik/rubik-700.woff2);
     font-weight: 700;
     font-style: normal;
+    font-display: swap
 }
 
 @font-face {
@@ -17,6 +19,7 @@
     src: url(/fonts/rubik/rubik-800.woff2);
     font-weight: 800;
     font-style: normal;
+    font-display: swap
 }
 
 @font-face {
@@ -24,6 +27,7 @@
     src: url(/fonts/raleway/raleway-800.woff2);
     font-weight: 800;
     font-style: normal;
+    font-display: swap
 }
 
 .search-input, .search-button{
@@ -50,4 +54,63 @@
     line-height: 21px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+}
+
+.address, .telephone{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.telephone{
+    text-decoration: underline;
+}
+
+.slide-slogan {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.standart-text{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color:#444444;
+}
+
+.details-button{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.prop-top, .prop-bottom{
+
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 30px;
+
+}
+
+.prop-top{
+    font-size: 36px;
+    color:#000000;
+}
+
+.prop-bottom{
+    font-size: 16px;
+    color:#444444;
 }
