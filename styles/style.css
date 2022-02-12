@@ -1,3 +1,8 @@
+body{
+    width: 1440px;
+}
+
+
 @font-face {
     font-family: "Rubik";
     src: url(/fonts/rubik/rubik-400.woff2);
@@ -44,6 +49,11 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
+    
+}
+
+.nav-link{
+    text-decoration: none;
 }
 
 .site-navigation{
@@ -54,6 +64,7 @@
     line-height: 21px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+    list-style: none;
 }
 
 .address, .telephone{
@@ -86,7 +97,7 @@
     color:#444444;
 }
 
-.details-button, .button-link{
+.details-button, .button-link, .filter-button{
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
@@ -123,6 +134,11 @@
 
 .page-footer .telephone{
     color:#ffffff;
+}
+
+.footer-nav-link{
+    color:#ffffff;
+    text-decoration: none;
 }
 
 .page-header{
@@ -186,7 +202,7 @@
     text-transform: uppercase;
 }
 
-.title{
+.title, .inner-header-title{
     font-family: "Raleway";
     font-style: normal;
     font-weight: 800;
@@ -195,7 +211,7 @@
 }
 
 .title3{
-    font-family: Rubik;
+    font-family: "Rubik";
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -206,7 +222,7 @@
 .inner-section-list{
     font-family: "Rubik";
     font-style: normal;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 18px;
     line-height: 20px;
     letter-spacing: -0.02em;
@@ -214,3 +230,94 @@
     
 }
 
+.breadcrumbs-list{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.filter-title, .sorting-title{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.filter-legend{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+
+}
+
+.color-filter-checkbox-label, .bluetooth-filter-radio-label{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.catalog-select-input{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.good-name{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+}
+
+.price{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #444444;
+}
+
+.load-more-link{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}   
+
+.pagination-button-fb{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.pagination-button-number, .pagination-button-dots{
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #444444;
+}
