@@ -189,19 +189,19 @@ body{
     text-transform: uppercase;
 }
 
-.service-slider1{
-    background-image: url(/image/delivery_picto.svg);
+.service-slider-delivery{
+    background-image: url(../image/delivery_picto.svg);
     background-repeat: no-repeat;
     
 }
 
-.service-slider2{
-    background-image: url(/image/warranty_picto.svg);
+.service-slider-warranty{
+    background-image: url(../image/warranty_picto.svg);
     background-repeat: no-repeat;
 }
 
-.service-slider3{
-    background-image: url(/image/loan_picto.svg);
+.service-slider-loan{
+    background-image: url(../image/loan_picto.svg);
     background-repeat: no-repeat;
 }
 
@@ -224,7 +224,7 @@ body{
     line-height: 50px;
 }
 
-.title3{
+.title-small{
     font-family: "Rubik";
     font-style: normal;
     font-weight: bold;
