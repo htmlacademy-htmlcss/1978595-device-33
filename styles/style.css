@@ -55,7 +55,7 @@ body{
 
 .nav-link, .main-link{
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 }
 
 .site-navigation{
@@ -96,7 +96,7 @@ body{
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    color:#444444;
+    color: #444444;
 }
 
 .details-button, .button-link, .filter-button {
@@ -109,7 +109,7 @@ body{
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 }
 
 .prop-top, .prop-bottom{
@@ -123,21 +123,21 @@ body{
 
 .prop-top{
     font-size: 36px;
-    color:#000000;
+    color: #000000;
 }
 
 .prop-bottom{
     font-size: 16px;
-    color:#444444;
+    color: #444444;
 }
 
 .page-footer {
     background-color: #444444;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .page-footer .telephone{
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .footer-nav-link{
@@ -175,7 +175,7 @@ body{
 
 .catalog-link{
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 }
 
 .service-button{
@@ -230,7 +230,7 @@ body{
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
-    color:#444444;
+    color: #444444;
 }
 
 .inner-section-list{
@@ -255,7 +255,7 @@ body{
 
 .breadcrumbs-list a{
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 }
 
 .color-filter-list, .bluetooth-fitler-list{
@@ -310,7 +310,7 @@ body{
 
 .good-name-link{
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 }
 
 .price{
@@ -332,7 +332,7 @@ body{
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 }   
 
 .pagination-button-fb{
@@ -344,7 +344,7 @@ body{
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-decoration: none;
-    color:#000000;
+    color: #000000;
 }
 
 .pagination-button-number, .pagination-button-dots{
