@@ -5,7 +5,7 @@ body{
 
 @font-face {
     font-family: "Rubik";
-    src: url(/fonts/rubik/rubik-400.woff2);
+    src: url(../fonts/rubik/rubik-400.woff2);
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -13,7 +13,7 @@ body{
 
 @font-face {
     font-family: "Rubik";
-    src: url(/fonts/rubik/rubik-700.woff2);
+    src: url(../fonts/rubik/rubik-700.woff2);
     font-weight: 700;
     font-style: normal;
     font-display: swap
@@ -21,7 +21,7 @@ body{
 
 @font-face {
     font-family: "Rubik";
-    src: url(/fonts/rubik/rubik-800.woff2);
+    src: url(../fonts/rubik/rubik-800.woff2);
     font-weight: 800;
     font-style: normal;
     font-display: swap
@@ -29,7 +29,7 @@ body{
 
 @font-face {
     font-family: "Raleway";
-    src: url(/fonts/raleway/raleway-800.woff2);
+    src: url(../fonts/raleway/raleway-800.woff2);
     font-weight: 800;
     font-style: normal;
     font-display: swap
@@ -240,7 +240,7 @@ body{
     font-size: 18px;
     line-height: 20px;
     letter-spacing: -0.02em;
-    list-style-image:url(/image/icons/ellipse-yellow.svg);
+    list-style-image:url(../image/icons/ellipse-yellow.svg);
     
 }
 
@@ -250,7 +250,7 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    list-style-image:url(/image/icons/nav-arrow.svg) ;
+    list-style-image:url(../image/icons/nav-arrow.svg) ;
 }
 
 .breadcrumbs-list a{
