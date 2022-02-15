@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
     <!-- Шапка страницы -->
-    <header class="main-header">
+    <header class="page-header">
 
       <img src="image/logo_black.svg" width="145" height="36" alt="Логотип Device.">
 
@@ -48,25 +49,25 @@
         <!-- Кнопки навигации по сайту -->
         <ul class="site-navigation">
           <li class="nav-item">
-            <a class="catalog-toggler-text nav-link-bottom" href="#">Каталог товаров</a>
+            <a class="catalog-toggler-text nav-link nav-link-bottom" href="#">Каталог товаров</a>
             <button class="catalog-toggler-button" type="button"><span class="visually-hidden">Открыть Каталог</span></button>
             <ul class="dropdown-menu">
               <li class="dropdown-menu-column-container">  
                 <ul class="dropdown-menu-column dropdown-menu-column1">
-                  <li class="dropdown-menu-item"><a class="dropdown-menu-link" href="#">Виртуальная реальность</a></li>
-                  <li class="dropdown-menu-item"><a class="dropdown-menu-link" href="catalog.html">Моноподы для селфи</a></li>
-                  <li class="dropdown-menu-item"><a class="dropdown-menu-link" href="#">Экшн-камеры</a></li>
+                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Виртуальная реальность</a></li>
+                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="catalog.html">Моноподы для селфи</a></li>
+                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Экшн-камеры</a></li>
                 </ul>
               </li>
               <li class="dropdown-menu-column-container">
                 <ul class="dropdown-menu-column dropdown-menu-column2">
-                  <li class="dropdown-menu-item"><a class="dropdown-menu-link" href="#">Фитнес-браслеты</a></li>
-                  <li class="dropdown-menu-item"><a class="dropdown-menu-link" href="#">Умные часы</a></li>
+                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Фитнес-браслеты</a></li>
+                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Умные часы</a></li>
                 </ul>
               </li>
               <li class="dropdown-menu-column-container">
                 <ul class="dropdown-menu-column dropdown-menu-column3">
-                  <li class="dropdown-menu-item"><a class="dropdown-menu-link" href="#">Квадрокоптеры</a></li>
+                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Квадрокоптеры</a></li>
                 </ul>
               </li>
             </ul>
@@ -110,7 +111,7 @@
           </fieldset>
 
           <fieldset class="filter-fieldset" >
-            <legend>Цвет</legend>
+            <legend class="filter-legend">Цвет</legend>
             <ul class="color-filter-list">
               <li class="color-filter-list-item">
                 <label class="color-filter-checkbox-label">
@@ -284,7 +285,7 @@
   
         <section class="tel-section">
           <h2 class="visually-hidden">Телефон и ссылка на сайт разработчика</h2>
-          <a href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
+          <a  class="telephone" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
           <a class="ha-logo-lin" href="https://htmlacademy.ru/">
             <img src="image/ha_logo.svg" width="115" height="33" alt="Логотип HTML-Academy."> 
           </a>
