@@ -67,6 +67,8 @@ body{
     letter-spacing: 0.2em;
     text-transform: uppercase;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .address, .telephone{
@@ -113,7 +115,6 @@ body{
 }
 
 .prop-top, .prop-bottom{
-
     font-family: "Rubik", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -158,6 +159,8 @@ body{
     text-transform: none;
     letter-spacing: normal;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .dropdown-menu-column{
@@ -171,6 +174,9 @@ body{
     font-size: 18px;
     line-height: 24px;
     letter-spacing: -0.02em;
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .catalog-link{
@@ -250,16 +256,20 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    list-style-image:url(../image/icons/nav-arrow.svg) ;
+    list-style-image:url(../image/icons/nav-arrow.svg);
+    margin: 0px;
+    padding: 0px;
 }
 
 .breadcrumbs-list a{
     text-decoration: none;
-    color: #000000;
+    color: #000000;    
 }
 
 .color-filter-list, .bluetooth-fitler-list{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .filter-title, .sorting-title{
@@ -359,12 +369,18 @@ body{
 
 .pagination-list{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .goods-list{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .social-navigation{
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
