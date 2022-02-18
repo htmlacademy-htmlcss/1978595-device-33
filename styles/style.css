@@ -84,9 +84,11 @@ body{
     line-height: 21px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    list-style: none;
-    margin: 0px;
     padding: 0px;
+}
+
+.site-navigation-right, .site-navigation-left{
+    list-style: none;
 }
 
 .address, .telephone{
@@ -404,8 +406,8 @@ body{
 }
 
 .header-nav-top{
+    margin: 0 auto;
     width: 1040px;
-    height: 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -414,8 +416,18 @@ body{
     width: 1040px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .main-navigation{
     width: 1160px;
+}
+
+.site-navigation-left{
+    width: 293px;
+}
+
+.site-navigation-right{
+    margin-left: auto;
+    width: 471px;
 }
