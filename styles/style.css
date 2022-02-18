@@ -48,7 +48,7 @@ body{
 }
 
 .main-container{
-    width: 1160px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -447,7 +447,7 @@ body{
 }
 
 .sliders-container{
-    /* width: 1160px; */
+    width: 1160px;
     margin: 0 auto;
 }
 
@@ -472,6 +472,7 @@ body{
 
 .catalog-section{
     width: 1160px;
+    margin: 0 auto;
 }
 
 .catalog-list{
@@ -483,8 +484,14 @@ body{
     width: 160px;
 }
 
+.service-slider-section-container{
+    width: 1440px;
+    background-color: #F0F0F0;
+}
+
 .service-slider-section{
     width: 1160px;
+    margin: 0 auto;
 }
 
 .service-slider-container{
@@ -506,6 +513,7 @@ body{
 
 .rare-goods-container{
     width: 1160px;
+    margin: 0 auto;
     display: flex;
 }
 
@@ -530,6 +538,7 @@ body{
 
 .main-info-container{
     width: 1160px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
@@ -548,8 +557,8 @@ body{
 }
 
 .mailing-section{
-    
     width: 1160px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 
@@ -568,4 +577,9 @@ body{
 
 .mailing-top .mailing-description{
     width: 560px;
+}
+
+.footer-container{
+    width: 1440px;
+    margin: 0 auto;
 }
