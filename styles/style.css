@@ -157,24 +157,9 @@ body{
     color: #444444;
 }
 
-.page-footer {
-    background-color: #444444;
-    color: #ffffff;
-}
-
-.page-footer .telephone{
-    color: #ffffff;
-}
-
-.footer-nav-link{
-    color:#ffffff;
-    text-decoration: none;
-}
-
 .page-header{
     background-color: #ffe17f;
     width: 1160px;
-    height: 186px;
     margin: 0 auto;
 }
 
@@ -430,7 +415,6 @@ body{
 .main-navigation{
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0);
-    height: 186px;
     width: 1040px;
     display: flex;
     flex-direction: column;
@@ -579,7 +563,25 @@ body{
     width: 560px;
 }
 
-.footer-container{
+.page-footer {
+    background-color: #444444;
+    color: #ffffff;
     width: 1440px;
-    margin: 0 auto;
 }
+
+.footer-container{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer .telephone{
+    color: #ffffff;
+}
+
+.footer-nav-link{
+    color:#ffffff;
+    text-decoration: none;
+}
+
