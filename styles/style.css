@@ -47,6 +47,11 @@ body{
     min-height: 100%;
 }
 
+.main-container{
+    width: 1160px;
+    margin: 0 auto;
+}
+
 .index-main, .catalog-main{
     flex-grow: 1;
 }
@@ -441,3 +446,26 @@ body{
     width: 471px;
 }
 
+.sliders-container{
+    /* width: 1160px; */
+    margin: 0 auto;
+}
+
+.promo-sliders{
+    padding: 0;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.slide-left{
+    width: 560px;
+}
+
+.slide-right{
+    width:560px;
+}
