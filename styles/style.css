@@ -34,7 +34,7 @@
 }
 
 html{
-    height:100%;
+    height: 100%;
     width: 1440px;
     
 }
@@ -401,4 +401,21 @@ body{
     list-style: none;
     margin: 0px;
     padding: 0px;
+}
+
+.header-nav-top{
+    width: 1040px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-bottom{
+    width: 1040px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-navigation{
+    width: 1160px;
 }

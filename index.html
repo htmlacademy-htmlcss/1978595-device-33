@@ -13,69 +13,77 @@
 
       <nav class="main-navigation">
 
-        <!-- Форма поиска -->
-        <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+        <div class="header-nav-top">
 
-          <input class="search-input" type="text" name="searchQuery" placeholder="Текст поиска">
+          <!-- Форма поиска -->
+          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
 
-          <button class="search-button" type="submit">Найти</button> 
-        
-        </form>
+            <input class="search-input" type="text" name="searchQuery" placeholder="Текст поиска">
 
-        <!-- Кнопка Войти -->
-        <ul class="user-navigation user-navigation-login">
-          <li class="nav-item"> 
-            <a class="nav-link login-button nav-link-top" href="#">Войти</a>
-          </li>
-        </ul>
-        
-        <!-- Кнопки Сравнить и Корзина -->
-        <ul class="user-navigation user-navigation-right">
-          <li class="nav-item">
-            <a class="nav-link compare-button nav-link-top" href="#">Сравнить</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link cart-button nav-link-top" href="#">Корзина</a>
-          </li>
-        </ul>
+            <button class="search-button" type="submit">Найти</button> 
+          
+          </form>
+
+          <!-- Кнопка Войти -->
+          <ul class="user-navigation user-navigation-login">
+            <li class="nav-item"> 
+              <a class="nav-link login-button nav-link-top" href="#">Войти</a>
+            </li>
+          </ul>
+          
+          <!-- Кнопки Сравнить и Корзина -->
+          <ul class="user-navigation user-navigation-right">
+            <li class="nav-item">
+              <a class="nav-link compare-button nav-link-top" href="#">Сравнить</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link cart-button nav-link-top" href="#">Корзина</a>
+            </li>
+          </ul>
+
+        </div>
 
                
-        <!-- Кнопки навигации по сайту -->
-        <ul class="site-navigation">
-          <li class="nav-item">
-            <a class="catalog-toggler-text nav-link nav-link-bottom" href="#">Каталог товаров</a>
-            <button class="catalog-toggler-button" type="button"><span class="visually-hidden">Открыть Каталог</span></button>
-            <ul class="dropdown-menu">
-              <li class="dropdown-menu-column-container">  
-                <ul class="dropdown-menu-column dropdown-menu-column1">
-                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Виртуальная реальность</a></li>
-                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="catalog.html">Моноподы для селфи</a></li>
-                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Экшн-камеры</a></li>
-                </ul>
-              </li>
-              <li class="dropdown-menu-column-container">
-                <ul class="dropdown-menu-column dropdown-menu-column2">
-                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Фитнес-браслеты</a></li>
-                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Умные часы</a></li>
-                </ul>
-              </li>
-              <li class="dropdown-menu-column-container">
-                <ul class="dropdown-menu-column dropdown-menu-column3">
-                  <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Квадрокоптеры</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>        
-          <li class="nav-item">
-            <a class="nav-link nav-link-bottom" href="#">Доставка</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-bottom" href="#">Гарантия</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-bottom" href="#">Контакты</a>
-          </li>
-        </ul>
+        <div class="header-nav-bottom">
+          
+          <!-- Кнопки навигации по сайту -->
+          <ul class="site-navigation">
+            <li class="nav-item">
+              <a class="catalog-toggler-text nav-link nav-link-bottom" href="#">Каталог товаров</a>
+              <button class="catalog-toggler-button" type="button"><span class="visually-hidden">Открыть Каталог</span></button>
+              <ul class="dropdown-menu">
+                <li class="dropdown-menu-column-container">  
+                  <ul class="dropdown-menu-column dropdown-menu-column1">
+                    <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Виртуальная реальность</a></li>
+                    <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="catalog.html">Моноподы для селфи</a></li>
+                    <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Экшн-камеры</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-menu-column-container">
+                  <ul class="dropdown-menu-column dropdown-menu-column2">
+                    <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Фитнес-браслеты</a></li>
+                    <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Умные часы</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown-menu-column-container">
+                  <ul class="dropdown-menu-column dropdown-menu-column3">
+                    <li class="dropdown-menu-item"><a class="nav-link dropdown-menu-link" href="#">Квадрокоптеры</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>        
+            <li class="nav-item">
+              <a class="nav-link nav-link-bottom" href="#">Доставка</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-bottom" href="#">Гарантия</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-bottom" href="#">Контакты</a>
+            </li>
+          </ul>
+
+        </div>  
 
       </nav>
       
