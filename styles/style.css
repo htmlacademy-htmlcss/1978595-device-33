@@ -474,13 +474,11 @@ body{
 }
 
 .service-slider-section{
+    display: flex;
     width: 1160px;
     margin: 0 auto;
 }
 
-.service-slider-container{
-    display: flex;
-}
 
 .service-buttons{
     width: 297px;
@@ -495,7 +493,7 @@ body{
     list-style: none;
 }
 
-.rare-goods-container{
+.rare-section{
     width: 1160px;
     margin: 0 auto;
     display: flex;
@@ -515,7 +513,7 @@ body{
     width: 910px;
 }
 
-.rare-goods-info-button-container{
+.rare-goods-info-button{
     width: 125px;
     height: 100px;
 }
