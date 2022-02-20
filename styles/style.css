@@ -35,7 +35,7 @@
 
 html{
     height: 100%;
-    width: 1440px;
+    
     
 }
 
@@ -45,6 +45,20 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100%;
+}
+
+.page-header{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.main-navigation{
+    background-color: #ffe17f;
+    margin: 0 auto;
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .main-container{
@@ -157,11 +171,7 @@ body{
     color: #444444;
 }
 
-.page-header{
-    background-color: #ffe17f;
-    width: 1160px;
-    margin: 0 auto;
-}
+
 
 .dropdown-menu{
     font-family: "Rubik", sans-serif; 
@@ -412,14 +422,7 @@ body{
     margin: 0 auto;
 }
 
-.main-navigation{
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0);
-    width: 1040px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 
 .site-navigation-left{
     width: 293px;
